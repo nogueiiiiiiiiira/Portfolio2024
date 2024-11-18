@@ -36,6 +36,12 @@
                 <li>Samuel Garcia Pereira</li>
             </ul>
         <p>O jogo foi denominado Woody's Train Trouble e é baseado na obra cinematográfica Toy Story 3. Conta com os personagens 'Woody', 'Sr. Cabeça de Batata' e o 'Sr. Doutor Porcão'. Ele é direcionado para o público infantil e se ambienta no velho oeste. É um jogo de plataforma, que conta com o design feito, em sua maioria, em pixilart e com elementos visuais criados no Paint ou diretamente no Construct 3. O jogo também conta com músicas e sons para deixá-lo mais imersivo.</p>
+        <a href="https://www.canva.com/design/DAGPiyzxnq4/4FdeJVxdrUsrvXP-ye2GRg/edit?utm_content=DAGPiyzxnq4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" download class="downloadLink">Ver Slides</a>
+        <a class="downloadLink" id="showVideoBtn" href="#">Assistir Jogo Rodando</a>
+        <video id="projeto3Video" controls width="640" style="display: none; margin-top: 20px;">
+            <source src="video-sobre-IA.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos. Por favor, atualize para um navegador mais moderno!
+        </video>
     </section>
 
     <section id="projeto2">
@@ -46,6 +52,12 @@
             <li>Karen Cristini Nogueira</li>
         </ul>
         <p>O projeto foi denominado Recycle Right e tem como objetivo ensinar e educar crianças sobre a importância da reciclagem e como realizá-la no cotidiano.</p>
+        <a href="https://pucpredu-my.sharepoint.com/:p:/r/personal/karen_nogueira_pucpr_edu_br/Documents/MM2.pptx?d=w5a4b627a1a46430ebbb1cb3da8948f33&csf=1&web=1&e=G4n0Yi" download class="downloadLink">Ver Slides</a>
+        <a class="downloadLink" id="showVideoBtn" href="#">Assistir Jogo Rodando</a>
+        <video id="projeto3Video" controls width="640" style="display: none; margin-top: 20px;">
+            <source src="video-sobre-IA.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos. Por favor, atualize para um navegador mais moderno!
+        </video>
     </section>
 
     <section id="projeto3">
@@ -58,6 +70,7 @@
             <li>Karen Cristini Nogueira</li>
         </ul>
         <p>O projeto também foi denominado Recycle Right e tem como objetivo ensinar e educar crianças sobre a importância da reciclagem e como realizá-la no cotidiano.</p>
+        <a class="downloadLink" href="https://github.com/nogueiiiiiiiiira/Projeto-WEB.git">Ver no GitHub</a>
     </section>
 </body>
 </html>
@@ -164,4 +177,29 @@ ul li {
     color: #eac213;
 }
 
+.downloadLink {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.downloadLink:hover {
+    background-color: #45a049;
+}
+
+
 </style>
+
+<script>
+    document.getElementById("showVideoBtn").addEventListener("click", function(event) {
+        event.preventDefault(); 
+        const video = document.getElementById("projeto3Video");
+        video.style.display = "block"; 
+        this.style.display = "none";
+    });
+</script>

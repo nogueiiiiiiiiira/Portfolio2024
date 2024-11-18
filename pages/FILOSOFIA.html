@@ -27,33 +27,44 @@
 
     <section id="projeto1">
         <h2>Projeto 1 - Apresentação sobre IA</h2>
-        <p>O primeiro projeto foi um seminário que os alunos realizaram sobre a IA segundo Stephen Halwking no livro Breve Respostas para Grandes Questões. O grupo foi composto por:</p>
-            <ul>
-                <li>Abilio Pedro Alcantara Mota Batista</li>
-                <li>Erick Suckow Meister</li>
-                <li>Joao Paulo da Silva Picoli</li>
-                <li>Karen Cristini Nogueira</li>
-                <li>Rafael Gomes de Jesus</li>
-                <li>Samuel Garcia Pereira</li>
-            </ul>
+        <p>O primeiro projeto foi um seminário que os alunos realizaram sobre a IA segundo Stephen Halwking no livro *Breve Respostas para Grandes Questões*. O grupo foi composto por:</p>
+        <ul>
+            <li>Abilio Pedro Alcantara Mota Batista</li>
+            <li>Erick Suckow Meister</li>
+            <li>Joao Paulo da Silva Picoli</li>
+            <li>Karen Cristini Nogueira</li>
+            <li>Rafael Gomes de Jesus</li>
+            <li>Samuel Garcia Pereira</li>
+        </ul>
         <p>Na primeira parte do seminário foi apresentado a biografia de Stephen Halking, o contexto em que sua obra foi escrita e os principais pontos discutidos em sua obra. Na segunda parte do seminário, ocorreu um debate que visava discutir sobre como a IA poderia se relacionar com o desemprego, falsas verdades e ética.</p>
+        <a href="https://www.canva.com/design/DAGR82XMnPU/SLuHQ6TCSN5GkUAuKNHOIg/edit?utm_content=DAGR82XMnPU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="downloadLink">Ver Slides</a>
     </section>
+    
 
     <section id="projeto2">
         <h2>Projeto 2 - Texto Final sobre a IA</h2>
         <p>Pode-se dizer que esse projeto é uma continuação do Projeto 1, mas cujos resultados foram formalmente preservados em um relatório pelos relatores. Os integrantes são os mesmos do Projeto 1.</p>
+        <a class="downloadLink" href="/data/Re..docx" download="Texto_Final_Projeto2">Baixar Texto</a>
     </section>
+    
 
     <section id="projeto3">
         <h2>Projeto 3 - Vídeo sobre a IA</h2>
-        <p>Nesse último projeto, que também pode ser referido como uma continuação do projeto anterior, foi criado um vídeo que visava resumir as informações obtidas nos dois projetos anteriores e juntá-las aos dados obtidos pelos entrevistados que, respondendo perguntas sobre o futuro da profissão ao lado da IA, compartilharam suas opiniões e visões. O grupo foi composto por: </p>
+        <p>Nesse último projeto, que também pode ser referido como uma continuação do projeto anterior, foi criado um vídeo que visava resumir as informações obtidas nos dois projetos anteriores e juntá-las aos dados obtidos pelos entrevistados que, respondendo perguntas sobre o futuro da profissão ao lado da IA, compartilharam suas opiniões e visões. O grupo foi composto por:</p>
         <ul>
             <li>Abilio Pedro Alcantara Mota Batista</li>
             <li>Joao Paulo da Silva Picoli</li>
             <li>Karen Cristini Nogueira</li>
             <li>Samuel Garcia Pereira</li>
         </ul>
+        <a class="downloadLink" id="showVideoBtn" href="#">Assistir ao vídeo</a>
+        <video id="projeto3Video" controls width="640" style="display: none; margin-top: 20px;">
+            <source src="video-sobre-IA.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos. Por favor, atualize para um navegador mais moderno!
+        </video>
     </section>
+    
+    
 </body>
 </html>
 
@@ -159,4 +170,30 @@ ul li {
     color: #eac213;
 }
 
+.downloadLink {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.downloadLink:hover {
+    background-color: #45a049;
+}
+
+
 </style>
+
+<script>
+    document.getElementById("showVideoBtn").addEventListener("click", function(event) {
+        event.preventDefault(); 
+        const video = document.getElementById("projeto3Video");
+        video.style.display = "block"; 
+        this.style.display = "none";
+    });
+</script>
+
