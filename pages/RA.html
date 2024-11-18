@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raciocínio Algorítimo</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <h1>Raciocínio Algorítimo</h1>
+    </header>
     <nav class="navMenu">
         <ul class="ulMenu">
+            <li class="liMenu"><a class="aMenu" href="./MENUINICIAL.html"><i class="fas fa-home"></i></a></li>
             <li class="liMenu"><a class="aMenu" href="./ECNC.html">Experiência Criativa</a></li>
             <li class="liMenu"><a class="aMenu" href="./FILOSOFIA.html">Filosofia</a></li>
             <li class="liMenu"><a class="aMenu" href="./FSC.html">Fundamentos de Sistemas Ciberfisícos</a></li>
@@ -16,150 +22,183 @@
             <li class="liMenu"><a class="aMenu" href="./RPLM.html">Resolução de Problemas com Lógica Matemática</a></li>
         </ul>
     </nav>
-    <h1>Raciocínio Algorítimo</h1>
-    <nav>
-        <ul>
-            <li><a href="#projeto1">Projeto 1 - Joquempo</a></li>
-            <li><a href="#projeto2">Projeto 2 - Arquitetura</a></li>
-        </ul>
-    </nav>
 
     <section id="projeto1">
         <h2>Projeto 1 - Joquempo</h2>
-        <p>Nesse projeto, a equipe foi responsável por criar, utilizando python, um jogo realizado no terminal que tivesse três modos principais de jogar: Humano x Humano, Humano x Computador & Computador x Computador. A equipe foi composta por:         </p>
-            <ul>
-                <li>Karen Cristini Nogueira</li>
-            </ul>
-        <a href="https://github.com/nogueiiiiiiiiira/Joquempo.git" download class="downloadLink">Ver no GitHub</a>
-    </section>
-
-    <section id="projeto2">
-        <h2>Projeto 2 - Arquitetura RISC, CISC E ARM</h2>
-        <p>Nesse segundo projeto, a equipe foi responsável por criar, utilizando python, uma máquina de bebidas que devolvesse troco e contivesse um modo admin. A equipe foi composta por:</p>
+        <p>
+            Este projeto teve como objetivo desenvolver, em <strong>Python</strong>, um jogo interativo de <strong>Joquempo (pedra, papel e tesoura)</strong> para ser executado no terminal. A aplicação foi projetada para oferecer três modos de jogo distintos, visando aumentar a flexibilidade e o engajamento dos usuários:
+        </p>
+        <ul>
+            <li><strong>Humano x Humano</strong>: Dois jogadores interagem diretamente no terminal, inserindo suas escolhas.</li>
+            <li><strong>Humano x Computador</strong>: Um jogador compete contra o computador, que utiliza lógica programada para determinar sua jogada.</li>
+            <li><strong>Computador x Computador</strong>: Dois jogadores virtuais, simulados pelo programa, competem entre si, permitindo análises e observação do comportamento do sistema.</li>
+        </ul>
+        <p>
+            Este projeto permitiu a aplicação de conceitos fundamentais de lógica de programação, manipulação de entrada e saída no terminal, e estruturação de código em Python. A simplicidade do terminal foi aproveitada para priorizar a eficiência e clareza do funcionamento. O projeto foi desenvolvido individualmente por:
+        </p>
         <ul>
             <li>Karen Cristini Nogueira</li>
         </ul>
+        <br>
+        <a href="https://github.com/nogueiiiiiiiiira/Joquempo.git" download class="downloadLink">Ver no GitHub</a>
+    </section>
+    
+    <section id="projeto2">
+        <h2>Projeto 2 - Máquina de Bebidas</h2>
+        <p>
+            No segundo projeto, também desenvolvido em <strong>Python</strong>, o desafio consistiu na criação de uma simulação de uma máquina de bebidas com funcionalidades avançadas. A aplicação foi projetada para atender a dois tipos de usuários: clientes e administradores. Entre as funcionalidades implementadas, destacam-se:
+        </p>
+        <ul>
+            <li><strong>Modo Cliente</strong>: Permite a seleção de bebidas e calcula automaticamente o troco com base no valor inserido pelo cliente.</li>
+            <li><strong>Modo Administrador</strong>: Oferece acesso restrito a configurações do sistema, como reabastecimento de estoque, ajuste de preços e consulta ao histórico de vendas.</li>
+        </ul>
+        <p>
+            Este projeto explorou conceitos mais avançados de programação, como gerenciamento de fluxo condicional, operações matemáticas para cálculo de troco para o modo administrador. A interface em terminal foi utilizada de forma criativa para simular a experiência de uso de uma máquina de vendas automática. O projeto foi desenvolvido individualmente por:
+        </p>
+        <ul>
+            <li>Karen Cristini Nogueira</li>
+        </ul>
+        <br>
         <a href="https://github.com/nogueiiiiiiiiira/MaquinaProjeto.git" download class="downloadLink">Ver no GitHub</a>
     </section>
+    
 
 </body>
 </html>
 
 <style>
+
+    html {
+        scroll-behavior: smooth;
+        font-size: 16px;
+    }
     
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
-
-h1 {
-    text-align: center;
-    background-color: #4CAF50;
-    color: white;
-    padding: 1rem;
-    margin: 0;
-}
-
-nav {
-    background: #333;
-    color: white;
-    padding: 0.5rem 0;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #4CAF50;
-}
-
-section {
-    margin: 2rem;
-    padding: 1.5rem;
-    background: #f4f4f4;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-section h2 {
-    color: #333;
-}
-
-ul {
-    padding-left: 20px;
-}
-
-ul li {
-    margin-bottom: 5px;
-}
-
-.navMenu {
-    background-color: rgba(255, 255, 255, 0.5); 
-    padding: 10px 20px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    position: relative; 
-    z-index: 2; 
-    box-shadow: rgba(0, 0, 0, 0.75) 0 8px 15px;
-
-}
-
-.ulMenu {
-    list-style-type: none;
-    display: flex;
-    gap: 30px; 
-}
-
-.liMenu {
-    text-align: center;
-}
-
-.aMenu {
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px 15px;
-    border-radius: 10px;
-    transition: color 0.3s;    
-    color: black;         
-}
-
-.aMenu:hover {
-    color: #eac213;
-}
-
-.downloadLink {
-    display: inline-block;
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.downloadLink:hover {
-    background-color: #45a049;
-}
-
-</style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+    h1 {
+        text-align: center;
+        background-color: #6b30d8;
+        color: white;
+        padding: 2rem;
+        margin: 0;
+        font-size: 2.5rem;
+    }
+    
+    nav {
+        background-color: black;
+        padding: 1rem 0;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    
+    nav ul li {
+        margin: 10px 15px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1rem;
+        padding: 10px 20px;
+        border-radius: 10px;
+        transition: color 0.3s ease, background-color 0.3s ease;
+    }
+    
+    nav ul li a:hover {
+        color: #6b30d8;
+    }
+    
+    section {
+        margin: 2rem; 
+        padding: 1.5rem;
+        background-color: #f4f4f4;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    
+    .downloadLink {
+        display: inline-block;
+        background-color: #6b30d8;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: transform 0.3s, background-color 0.3s;
+    }
+    
+    .downloadLink:hover {
+        background-color: black;
+        transform: scale(1.04);
+    }
+    
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 2rem;
+        }
+    
+        .navMenu ul {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .navMenu ul li {
+            margin: 10px 0;
+        }
+    
+        .navMenu ul li a {
+            font-size: 1rem;
+            padding: 8px 20px;
+        }
+    
+        section {
+            margin: 1rem;
+            padding: 1.2rem;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        h1 {
+            font-size: 1.8rem;
+            padding: 1.5rem;
+        }
+    
+        .navMenu ul {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .navMenu ul li {
+            margin: 8px 0;
+        }
+    
+        .navMenu ul li a {
+            font-size: 0.9rem;
+            padding: 8px 15px;
+        }
+    
+        section {
+            margin: 0.8rem;
+            padding: 1rem;
+        }
+    }
+    
+    </style>

@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundamentos de Sistemas Ciberfisícos</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <h1>Fundamentos de Sistemas Ciberfisícos</h1>
+    </header>
     <nav class="navMenu">
         <ul class="ulMenu">
+            <li class="liMenu"><a class="aMenu" href="./MENUINICIAL.html"><i class="fas fa-home"></i></a></li>
             <li class="liMenu"><a class="aMenu" href="./ECNC.html">Experiência Criativa</a></li>
             <li class="liMenu"><a class="aMenu" href="./FILOSOFIA.html">Filosofia</a></li>
             <li class="liMenu"><a class="aMenu" href="./FSC.html">Fundamentos de Sistemas Ciberfisícos</a></li>
@@ -16,173 +22,198 @@
             <li class="liMenu"><a class="aMenu" href="./RPLM.html">Resolução de Problemas com Lógica Matemática</a></li>
         </ul>
     </nav>
-    <h1>Fundamentos de Sistemas Ciberfisícos</h1>
-    <nav>
-        <ul>
-            <li><a href="#projeto1">Projeto 1 - Sistemas Operacionais</a></li>
-            <li><a href="#projeto2">Projeto 2 - Arquitetura</a></li>
-            <li><a href="#projeto3">Projeto 3 - Trabalho Final</a></li>
-        </ul>
-    </nav>
-
+   
     <section id="projeto1">
         <h2>Projeto 1 - Sistemas Operacionais</h2>
-        <p>Nesse seminário, a equipe foi responsável por criar relatório sobre o sistema operacional MIUI e apresentar, por meio de um vídeo, os informações colecionadas. A equipe foi composta por:         </p>
-            <ul>
-                <li>Abilio Pedro Alcantara Mota Batista</li>
-                <li>Felipe da Silva Cesca</li>
-                <li>Joao Paulo da Silva Picoli</li>
-                <li>Karen Cristini Nogueira</li>
-            </ul>
-        <a href="/data/annotated-relatorio1.pdf" download="miui" class="downloadLink">Baixar relatório</a>
-        <a class="downloadLink" id="showVideoBtn" href="https://youtu.be/Dknm2GnPN3k">Assistir ao vídeo</a>
-      
-    </section>
-
-    <section id="projeto2">
-        <h2>Projeto 2 - Arquitetura RISC, CISC E ARM</h2>
-        <p>Nesse projeto, a equipe foi responsável por explorar três importantes arquiteturas de processadores: RISC (Reduced Instruction Set Computing), CISC (Complex Instruction Set Computing) e ARM (Advanced RISC Machine) e gerar um relatório com base nessa pesquisa.  A equipe foi composta por:</p>
+        <p>
+            O primeiro projeto da disciplina teve como objetivo principal a realização de um estudo aprofundado sobre o sistema operacional <strong>MIUI</strong>, amplamente utilizado em dispositivos móveis. A equipe foi responsável por coletar informações detalhadas sobre o funcionamento, características principais e diferenciais deste sistema operacional, consolidando esses dados em um relatório técnico. Além disso, a apresentação dos resultados foi realizada por meio de um vídeo explicativo, que combinou narrativa técnica com elementos visuais para facilitar a compreensão do público.  
+        </p>
+        <p>
+            O projeto proporcionou aos participantes uma oportunidade de explorar os fundamentos dos sistemas operacionais, suas particularidades e sua aplicação prática. A equipe responsável foi composta pelos seguintes integrantes:
+        </p>
         <ul>
             <li>Abilio Pedro Alcantara Mota Batista</li>
             <li>Felipe da Silva Cesca</li>
-            <li>Joao Paulo da Silva Picoli</li>
+            <li>João Paulo da Silva Picoli</li>
             <li>Karen Cristini Nogueira</li>
         </ul>
-        <a href="/data/annotated-arquitetura%20%281%29.pdf" download="miui" class="downloadLink">Baixar relatório</a>
+        <br>
+        <a href="/data/annotated-relatorio1.pdf" download="miui" class="downloadLink">Baixar Relatório</a>
+        <a class="downloadLink" id="showVideoBtn" href="https://youtu.be/Dknm2GnPN3k">Assistir ao Vídeo</a>
     </section>
-
+    
+    <section id="projeto2">
+        <h2>Projeto 2 - Arquiteturas RISC, CISC e ARM</h2>
+        <p>
+            No segundo projeto, a equipe se dedicou ao estudo comparativo de três importantes arquiteturas de processadores: <strong>RISC (Reduced Instruction Set Computing)</strong>, <strong>CISC (Complex Instruction Set Computing)</strong> e <strong>ARM (Advanced RISC Machine)</strong>. A pesquisa teve como objetivo explorar os princípios de design, características e diferenças entre essas arquiteturas, bem como sua aplicação em diferentes contextos computacionais.  
+        </p>
+        <p>
+            O resultado da investigação foi consolidado em um relatório técnico, que abordou desde a evolução histórica de cada arquitetura até suas implicações no desempenho, consumo de energia e custo de implementação. Este trabalho permitiu à equipe compreender os desafios e as inovações relacionadas à engenharia de hardware. Os participantes do projeto foram:
+        </p>
+        <ul>
+            <li>Abilio Pedro Alcantara Mota Batista</li>
+            <li>Felipe da Silva Cesca</li>
+            <li>João Paulo da Silva Picoli</li>
+            <li>Karen Cristini Nogueira</li>
+        </ul>
+        <br>
+        <a href="/data/annotated-arquitetura%20%281%29.pdf" download="arquiteturas" class="downloadLink">Baixar Relatório</a>
+    </section>
+    
     <section id="projeto3">
         <h2>Projeto 3 - Trabalho Final</h2>
-        <p>O objetivo desta atividade foi realizar uma proposta de tema para o trabalho final da disciplina. O trabalho final fez uso do microcontrolador ESP32, sensores e estratégia de
-            comunicação MQTT. A equipe foi composta por:</p>
+        <p>
+            O terceiro projeto foi o marco final da disciplina e consistiu na elaboração de uma proposta prática para o trabalho final, utilizando o microcontrolador <strong>ESP32</strong> e componentes adicionais, como sensores e a implementação da comunicação via <strong>MQTT</strong>. A proposta do projeto foi idealizada para servir como uma estufa tropical, um sistema automatizado capaz de monitorar e regular variáveis ambientais importantes para o cultivo de plantas tropicais.
+        </p>
+        <p>
+            Este projeto desafiou a equipe a aplicar conhecimentos de eletrônica, programação embarcada e redes de comunicação <strong>IoT (Internet of Things)</strong>, permitindo a integração de hardware e software em uma solução funcional e inovadora. O grupo envolvido na elaboração e execução da proposta foi composto por:
+        </p>
         <ul>
             <li>Abilio Pedro Alcantara Mota Batista</li>
             <li>Felipe da Silva Cesca</li>
-            <li>Joao Paulo da Silva Picoli</li>
+            <li>João Paulo da Silva Picoli</li>
             <li>Karen Cristini Nogueira</li>
         </ul>
-        <p>O projeto visava servir como uma estufa tropical.</p>
+        <br>
         <a class="downloadLink" href="https://wokwi.com/projects/414390701164542977">Ver no Wokwi</a>
     </section>
+    
 </body>
 </html>
 
 <style>
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
-
-h1 {
-    text-align: center;
-    background-color: #4CAF50;
-    color: white;
-    padding: 1rem;
-    margin: 0;
-}
-
-nav {
-    background: #333;
-    color: white;
-    padding: 0.5rem 0;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #4CAF50;
-}
-
-section {
-    margin: 2rem;
-    padding: 1.5rem;
-    background: #f4f4f4;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-section h2 {
-    color: #333;
-}
-
-ul {
-    padding-left: 20px;
-}
-
-ul li {
-    margin-bottom: 5px;
-}
-
-.navMenu {
-    background-color: rgba(255, 255, 255, 0.5); 
-    padding: 10px 20px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    position: relative; 
-    z-index: 2; 
-    box-shadow: rgba(0, 0, 0, 0.75) 0 8px 15px;
-
-}
-
-.ulMenu {
-    list-style-type: none;
-    display: flex;
-    gap: 30px; 
-}
-
-.liMenu {
-    text-align: center;
-}
-
-.aMenu {
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px 15px;
-    border-radius: 10px;
-    transition: color 0.3s;    
-    color: black;         
-}
-
-.aMenu:hover {
-    color: #eac213;
-}
-
-.downloadLink {
-    display: inline-block;
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.downloadLink:hover {
-    background-color: #45a049;
-}
-
-
-</style>
+    html {
+        scroll-behavior: smooth;
+        font-size: 16px;
+    }
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+    h1 {
+        text-align: center;
+        background-color: #6b30d8;
+        color: white;
+        padding: 2rem;
+        margin: 0;
+        font-size: 2.5rem;
+    }
+    
+    nav {
+        background-color: black;
+        padding: 1rem 0;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    
+    nav ul li {
+        margin: 10px 15px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1rem;
+        padding: 10px 20px;
+        border-radius: 10px;
+        transition: color 0.3s ease, background-color 0.3s ease;
+    }
+    
+    nav ul li a:hover {
+        color: #6b30d8;
+    }
+    
+    section {
+        margin: 2rem; 
+        padding: 1.5rem;
+        background-color: #f4f4f4;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    
+    .downloadLink {
+        display: inline-block;
+        background-color: #6b30d8;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: transform 0.3s, background-color 0.3s;
+    }
+    
+    .downloadLink:hover {
+        background-color: black;
+        transform: scale(1.04);
+    }
+    
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 2rem;
+        }
+    
+        .navMenu ul {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .navMenu ul li {
+            margin: 10px 0;
+        }
+    
+        .navMenu ul li a {
+            font-size: 1rem;
+            padding: 8px 20px;
+        }
+    
+        section {
+            margin: 1rem;
+            padding: 1.2rem;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        h1 {
+            font-size: 1.8rem;
+            padding: 1.5rem;
+        }
+    
+        .navMenu ul {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .navMenu ul li {
+            margin: 8px 0;
+        }
+    
+        .navMenu ul li a {
+            font-size: 0.9rem;
+            padding: 8px 15px;
+        }
+    
+        section {
+            margin: 0.8rem;
+            padding: 1rem;
+        }
+    }
+    
+    </style>
