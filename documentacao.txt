@@ -1,0 +1,83 @@
+#### 1. Introdução
+
+Este documento descreve o desenvolvimento e a estrutura do portfólio do primeiro semestre do curso de Ciência da Computação. O objetivo principal deste portfólio é apresentar os projetos, atividades e aprendizados obtidos ao longo das seis disciplinas cursadas: Experiência Criativa, Filosofia, Fundamentos de Sistemas Ciberfísicos, Raciocínio Algorítmico e Resolução de Problemas com Lógica Matemática. O portfólio foi desenvolvido utilizando tecnologias modernas, como JavaScript, CSS e hospedado no Firebase Hosting.
+
+---
+
+#### 2. Objetivo do Portfólio
+
+O portfólio tem como propósito:
+
+- Documentar e refletir sobre os aprendizados adquiridos em cada disciplina ao longo do semestre.
+- Demonstrar projetos e atividades realizados em cada matéria, destacando o desenvolvimento de habilidades técnicas e conceituais.
+- Servir como ferramenta de autoavaliação, possibilitando uma visão clara do progresso acadêmico e das áreas de interesse.
+- Facilitar a apresentação de habilidades e conhecimentos para futuros projetos acadêmicos, extracurriculares ou oportunidades de estágio.
+
+---
+
+#### 3. Tecnologias Utilizadas
+
+Para o desenvolvimento do portfólio, foram utilizadas as seguintes tecnologias:
+
+- HTML5: Estruturação do conteúdo e páginas.
+- CSS3: Estilização das páginas, com foco em design responsivo e personalização visual.
+- JavaScript: Implementação de funcionalidades interativas, como menus dinâmicos, animações e manipulação de elementos DOM.
+- Firebase Hosting: Serviço utilizado para hospedar o site de forma segura, eficiente e escalável.
+
+---
+
+#### 4. Estrutura do Portfólio
+
+O portfólio foi estruturado para ser intuitivo e de fácil navegação, com seções dedicadas a cada disciplina. A seguir, uma visão geral das principais seções:
+
+- Página Inicial:
+  - Apresentação pessoal e resumo dos objetivos do portfólio.
+  - Links para as seções dedicadas a cada disciplina.
+
+- Experiência Criativa:
+  - Projetos desenvolvidos na disciplina, com foco em criatividade aplicada à computação.
+  - Reflexões sobre o processo criativo e inovações exploradas.
+
+- Filosofia:
+  - Textos reflexivos e ensaios sobre temas discutidos em aula.
+  - Análises críticas relacionadas à ciência da computação e tecnologia.
+
+- Fundamentos de Sistemas Ciberfísicos:
+  - Projetos práticos envolvendo sensores, atuadores e automação.
+  - Documentação técnica e explicações dos sistemas desenvolvidos.
+
+- Raciocínio Algorítmico:
+  - Resolução de problemas utilizando algoritmos básicos.
+  - Explicações de estratégias algorítmicas e exemplos de código.
+
+- Resolução de Problemas com Lógica Matemática:
+  - Exercícios de lógica e matemática aplicada.
+  - Demonstrações de soluções e raciocínio lógico.
+
+---
+
+#### 5. Funcionalidades Implementadas
+
+O portfólio inclui diversas funcionalidades para melhorar a experiência do usuário:
+
+- Design Responsivo: Garantindo acessibilidade em dispositivos móveis e desktops.
+- Navegação Interativa: Menus dinâmicos e navegação suave entre seções.
+- Animações com JavaScript: Efeitos de transição e interação com o usuário.
+
+---
+
+#### 6. Processo de Desenvolvimento
+
+- Planejamento: Definição da estrutura do site e das funcionalidades desejadas. Criação de wireframes e esboços das páginas.
+- Desenvolvimento:
+  - Criação do HTML e estilização com CSS.
+  - Implementação de funcionalidades dinâmicas com JavaScript.
+  - Configuração do Firebase Hosting para deploy e manutenção do site.
+- Testes e Ajustes: Testes em diferentes dispositivos e navegadores para garantir compatibilidade e responsividade.
+- Publicação: Deploy final no Firebase Hosting com configuração de segurança e desempenho.
+
+---
+
+#### 7. Conclusão
+
+O portfólio do primeiro semestre foi desenvolvido com o objetivo de ser uma ferramenta de aprendizado contínuo, não só documentando os projetos e atividades acadêmicas, mas também aprimorando habilidades técnicas em desenvolvimento web. Ao utilizar tecnologias como JavaScript, CSS e Firebase, o projeto também serviu como uma introdução prática ao desenvolvimento front-end e à hospedagem em nuvem.
