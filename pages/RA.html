@@ -1,204 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Raciocínio Algorítimo</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/data/styles/ra.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
+
 <body>
-    <header>
+    <header class="bg-primary text-white text-center py-4">
         <h1>Raciocínio Algorítimo</h1>
     </header>
-    <nav class="navMenu">
-        <ul class="ulMenu">
-            <li class="liMenu"><a class="aMenu" href="./MENUINICIAL.html"><i class="fas fa-home"></i></a></li>
-            <li class="liMenu"><a class="aMenu" href="./ECNC.html">Experiência Criativa</a></li>
-            <li class="liMenu"><a class="aMenu" href="./FILOSOFIA.html">Filosofia</a></li>
-            <li class="liMenu"><a class="aMenu" href="./FSC.html">Fundamentos de Sistemas Ciberfisícos</a></li>
-            <li class="liMenu"><a class="aMenu" href="./RA.html">Raciocínio Algorítimo</a></li>
-            <li class="liMenu"><a class="aMenu" href="./RPLM.html">Resolução de Problemas com Lógica Matemática</a></li>
-        </ul>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./menu.html"><i class="fas fa-home"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./ecnc.html">Experiência Criativa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./filosofia.html">Filosofia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./fsc.html">Fundamentos de Sistemas Ciberfisícos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./ra.html">Raciocínio Algorítimo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./rplm.html">Resolução de Problemas com Lógica Matemática</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
-    <section id="projeto1">
-        <h2>Projeto 1 - Joquempo</h2>
-        <p>
-            Este projeto teve como objetivo desenvolver, em <strong>Python</strong>, um jogo interativo de <strong>Joquempo (pedra, papel e tesoura)</strong> para ser executado no terminal. A aplicação foi projetada para oferecer três modos de jogo distintos, visando aumentar a flexibilidade e o engajamento dos usuários:
-        </p>
-        <ul>
-            <li><strong>Humano x Humano</strong>: Dois jogadores interagem diretamente no terminal, inserindo suas escolhas.</li>
-            <li><strong>Humano x Computador</strong>: Um jogador compete contra o computador, que utiliza lógica programada para determinar sua jogada.</li>
-            <li><strong>Computador x Computador</strong>: Dois jogadores virtuais, simulados pelo programa, competem entre si, permitindo análises e observação do comportamento do sistema.</li>
-        </ul>
-        <p>
-            Este projeto permitiu a aplicação de conceitos fundamentais de lógica de programação, manipulação de entrada e saída no terminal, e estruturação de código em Python. A simplicidade do terminal foi aproveitada para priorizar a eficiência e clareza do funcionamento. O projeto foi desenvolvido individualmente por:
-        </p>
-        <ul>
-            <li>Karen Cristini Nogueira</li>
-        </ul>
-        <br>
-        <a href="https://github.com/nogueiiiiiiiiira/Joquempo.git" download class="downloadLink">Ver no GitHub</a>
-    </section>
-    
-    <section id="projeto2">
-        <h2>Projeto 2 - Máquina de Bebidas</h2>
-        <p>
-            No segundo projeto, também desenvolvido em <strong>Python</strong>, o desafio consistiu na criação de uma simulação de uma máquina de bebidas com funcionalidades avançadas. A aplicação foi projetada para atender a dois tipos de usuários: clientes e administradores. Entre as funcionalidades implementadas, destacam-se:
-        </p>
-        <ul>
-            <li><strong>Modo Cliente</strong>: Permite a seleção de bebidas e calcula automaticamente o troco com base no valor inserido pelo cliente.</li>
-            <li><strong>Modo Administrador</strong>: Oferece acesso restrito a configurações do sistema, como reabastecimento de estoque, ajuste de preços e consulta ao histórico de vendas.</li>
-        </ul>
-        <p>
-            Este projeto explorou conceitos mais avançados de programação, como gerenciamento de fluxo condicional, operações matemáticas para cálculo de troco para o modo administrador. A interface em terminal foi utilizada de forma criativa para simular a experiência de uso de uma máquina de vendas automática. O projeto foi desenvolvido individualmente por:
-        </p>
-        <ul>
-            <li>Karen Cristini Nogueira</li>
-        </ul>
-        <br>
-        <a href="https://github.com/nogueiiiiiiiiira/MaquinaProjeto.git" download class="downloadLink">Ver no GitHub</a>
-    </section>
-    
+    <main class="container my-5">
+        <section id="projeto1" class="mb-5">
+            <h2>Projeto 1 - Joquempo</h2>
+            <p>
+                Este projeto teve como objetivo desenvolver, em <strong>Python</strong>, um jogo interativo de
+                <strong>Joquempo (pedra, papel e tesoura)</strong> para ser executado no terminal. A aplicação foi projetada
+                para oferecer três modos de jogo distintos, visando aumentar a flexibilidade e o engajamento dos usuários:
+            </p>
+            <ul>
+                <li><strong>Humano x Humano</strong>: Dois jogadores interagem diretamente no terminal, inserindo suas
+                    escolhas.</li>
+                <li><strong>Humano x Computador</strong>: Um jogador compete contra o computador, que utiliza lógica
+                    programada para determinar sua jogada.</li>
+                <li><strong>Computador x Computador</strong>: Dois jogadores virtuais, simulados pelo programa, competem
+                    entre si, permitindo análises e observação do comportamento do sistema.</li>
+            </ul>
+            <p>
+                Este projeto permitiu a aplicação de conceitos fundamentais de lógica de programação, manipulação de entrada
+                e saída no terminal, e estruturação de código em Python. A simplicidade do terminal foi aproveitada para
+                priorizar a eficiência e clareza do funcionamento. O projeto foi desenvolvido individualmente por:
+            </p>
+            <ul>
+                <li>Karen Cristini Nogueira</li>
+            </ul>
+            <a href="https://github.com/nogueiiiiiiiiira/Joquempo.git" download class="download_link">Ver no GitHub</a>
+        </section>
 
+        <section id="projeto2" class="mb-5">
+            <h2>Projeto 2 - Máquina de Bebidas</h2>
+            <p>
+                No segundo projeto, também desenvolvido em <strong>Python</strong>, o desafio consistiu na criação de uma
+                simulação de uma máquina de bebidas com funcionalidades avançadas. A aplicação foi projetada para atender a
+                dois tipos de usuários: clientes e administradores. Entre as funcionalidades implementadas, destacam-se:
+            </p>
+            <ul>
+                <li><strong>Modo Cliente</strong>: Permite a seleção de bebidas e calcula automaticamente o troco com base
+                    no valor inserido pelo cliente.</li>
+                <li><strong>Modo Administrador</strong>: Oferece acesso restrito a configurações do sistema, como
+                    reabastecimento de estoque, ajuste de preços e consulta ao histórico de vendas.</li>
+            </ul>
+            <p>
+                Este projeto explorou conceitos mais avançados de programação, como gerenciamento de fluxo condicional,
+                operações matemáticas para cálculo de troco para o modo administrador. A interface em terminal foi utilizada
+                de forma criativa para simular a experiência de uso de uma máquina de vendas automática. O projeto foi
+                desenvolvido individualmente por:
+            </p>
+            <ul>
+                <li>Karen Cristini Nogueira</li>
+            </ul>
+            <a href="https://github.com/nogueiiiiiiiiira/Maquina-Bebidas.git" download class="download_link">Ver no GitHub</a>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
-
-<style>
-
-    html {
-        scroll-behavior: smooth;
-        font-size: 16px;
-    }
-    
-    body {
-        font-family: 'Poppins', sans-serif;
-        margin: 0;
-        padding: 0;
-        color: #333;
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-    }
-    
-    h1 {
-        text-align: center;
-        background-color: #6b30d8;
-        color: white;
-        padding: 2rem;
-        margin: 0;
-        font-size: 2.5rem;
-    }
-    
-    nav {
-        background-color: black;
-        padding: 1rem 0;
-    }
-    
-    nav ul {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        flex-wrap: wrap;
-    }
-    
-    nav ul li {
-        margin: 10px 15px;
-    }
-    
-    nav ul li a {
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 1rem;
-        padding: 10px 20px;
-        border-radius: 10px;
-        transition: color 0.3s ease, background-color 0.3s ease;
-    }
-    
-    nav ul li a:hover {
-        color: #6b30d8;
-    }
-    
-    section {
-        margin: 2rem; 
-        padding: 1.5rem;
-        background-color: #f4f4f4;
-        border-radius: 8px;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    }
-    
-    
-    .downloadLink {
-        display: inline-block;
-        background-color: #6b30d8;
-        color: white;
-        padding: 10px 20px;
-        text-decoration: none;
-        font-weight: bold;
-        border-radius: 5px;
-        transition: transform 0.3s, background-color 0.3s;
-    }
-    
-    .downloadLink:hover {
-        background-color: black;
-        transform: scale(1.04);
-    }
-    
-    @media (max-width: 768px) {
-        h1 {
-            font-size: 2rem;
-        }
-    
-        .navMenu ul {
-            flex-direction: column;
-            align-items: center;
-        }
-    
-        .navMenu ul li {
-            margin: 10px 0;
-        }
-    
-        .navMenu ul li a {
-            font-size: 1rem;
-            padding: 8px 20px;
-        }
-    
-        section {
-            margin: 1rem;
-            padding: 1.2rem;
-        }
-    }
-    
-    @media (max-width: 480px) {
-        h1 {
-            font-size: 1.8rem;
-            padding: 1.5rem;
-        }
-    
-        .navMenu ul {
-            flex-direction: column;
-            align-items: center;
-        }
-    
-        .navMenu ul li {
-            margin: 8px 0;
-        }
-    
-        .navMenu ul li a {
-            font-size: 0.9rem;
-            padding: 8px 15px;
-        }
-    
-        section {
-            margin: 0.8rem;
-            padding: 1rem;
-        }
-    }
-    
-    </style>

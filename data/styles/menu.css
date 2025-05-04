@@ -1,0 +1,93 @@
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    background-color: #6b30d8;
+    color: white;
+    padding: 2rem;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav {
+    background-color: black;
+    padding: 1rem 0;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 10px 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #6b30d8;
+}
+
+.aboutMe,
+.contact {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1rem;
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.socialLinks a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.socialLinks a:hover {
+    color: #6b30d8;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
