@@ -36,7 +36,74 @@ Este portfólio é uma vitrine digital que reúne diferentes áreas do meu conhe
 - **FontAwesome** 🎭 para ícones modernos e atraentes.
 - **Google Fonts (Poppins)** ✍️ para uma tipografia elegante e legível.
 - **AOS (Animate On Scroll)** ✨ para animações suaves e interativas.
+- **Bootstrap 5** 📱 para design responsivo e flexível sem necessidade de @media queries.
 - **CSS personalizado** 🎨 para um design único e responsivo.
+
+---
+
+## ⚙️ Configuração do Firebase
+
+Este projeto utiliza o Firebase para hospedagem e funcionalidades adicionais. Os arquivos de configuração importantes são:
+
+- **.firebaserc**  
+  Contém o alias do projeto Firebase usado localmente. No caso, o projeto padrão é `"karennogport"`.  
+  Exemplo de conteúdo:
+  ```json
+  {
+    "projects": {
+      "default": "karennogport"
+    }
+  }
+  ```
+
+- **firebase.json**  
+  Define as configurações do projeto Firebase, como regras de hospedagem, redirecionamentos, e outras opções.  
+  Este arquivo é essencial para o deploy correto do site no Firebase Hosting.
+
+---
+
+## 🚀 Como rodar e fazer deploy do projeto
+
+### Pré-requisitos
+
+- Instale o [Node.js](https://nodejs.org/) (que inclui o npm)
+- Instale o Firebase CLI globalmente:
+  ```bash
+  npm install -g firebase-tools
+  ```
+
+### Passos para rodar localmente
+
+1. Faça login no Firebase:
+   ```bash
+   firebase login
+   ```
+
+2. Inicialize o projeto (caso ainda não tenha feito):
+   ```bash
+   firebase init
+   ```
+   - Selecione "Hosting" e escolha o projeto `"karennogport"`.
+   - Configure o diretório público como `.` (ponto) ou `public` conforme sua estrutura.
+   - Configure para não sobrescrever arquivos existentes, a menos que queira.
+
+3. Para rodar um servidor local e testar:
+   ```bash
+   firebase serve
+   ```
+   ou
+   ```bash
+   firebase emulators:start
+   ```
+
+### Passos para fazer deploy
+
+1. Faça o build do projeto se necessário (não aplicável para este projeto estático simples).
+
+2. Faça o deploy para o Firebase Hosting:
+   ```bash
+   firebase deploy
+   ```
 
 ---
 
